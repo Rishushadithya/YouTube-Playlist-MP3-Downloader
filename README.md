@@ -1,11 +1,11 @@
-YouTube Playlist to MP3 Downloader 🎵
+**YouTube Playlist to MP3 Downloader** 🎵
 
-This Python script downloads all videos from a YouTube playlist and converts them into high-quality MP3 files. It organizes the downloaded songs into a dedicated folder and can use browser cookies to access age-restricted or private playlists.
+This Python script downloads all video from a YouTube playlist and converts them into high-quality MP3 files. It organizes the downloaded songs into a dedicated folder and can use browser cookies to access age-restricted or private playlists.
 
 Features
 Downloads an entire YouTube playlist.
 Converts video to MP3 format using FFmpeg.
-Saves files in a clean, numbered format: Track Number - Title.mp3.
+Saves files in a clean, numbered format: Title.mp3.
 Supports using a cookies.txt file for authentication on private or age-restricted content.
 
 Installation & Usage
@@ -38,10 +38,12 @@ FFmpeg (for audio conversion):
 
 1.Download FFmpeg from this [link](https://github.com/BtbN/FFmpeg-Builds/releases)
  (The ffmpeg-n7.1-latest-win64-gpl-7.1.zip file is a good choice.)
+ 
+ (attached lates file)
 
 Create a folder named C:\ffmpeg.
 
-Unzip the download, open the bin folder, and copy ffmpeg.exe and ffprobe.exe into C:\ffmpeg.
+Unzip the download, open the bin folder, and copy ffplay.exe , ffmpeg.exe and ffprobe.exe into **C:\ffmpeg** .
 
 The script is already configured to look for FFmpeg in this location.
 
@@ -53,7 +55,7 @@ Before running, you need to set up the script.
 Add Playlist URL: Open the **song.py** file and paste the URL of the YouTube playlist you want to download into the **PLAYLIST_URL** variable.
 
 
-Set Up Cookies (Recommended): Using cookies helps access age-restricted or private content.
+Set Up Cookies : Using cookies helps access age-restricted or private content.
 
 A. Install the Extension: 🌐 Open your browser (Chrome, Edge, etc.) and go to its web store. Search for the extension **"Get cookies.txt LOCALLY"** and click "Add to browser" to install it.
 
