@@ -18,9 +18,9 @@ Follow these steps to set up and run the project on your local machine.
 
    First, get the code by cloning this repository. Open your terminal and run:
 
-        git clone https://github.com/Rishushadithya/youtube-playlist-download.git
+        git clone https://github.com/Rishushadithya/YouTube-Playlist-MP3-Downloader.git
 
-        cd youtube-playlist-download
+        cd YouTube-Playlist-MP3-Downloader
 
 
 
