@@ -37,11 +37,11 @@ yt-dlp (Python library):
 FFmpeg (for audio conversion):
 
 1.Download FFmpeg from this [link](https://github.com/BtbN/FFmpeg-Builds/releases)
+ 
  (The ffmpeg-n7.1-latest-win64-gpl-7.1.zip file is a good choice.)
  
- (attached lates file)
 
-Create a folder named C:\ffmpeg.
+Create a folder named **C:\ffmpeg** .
 
 Unzip the download, open the bin folder, and copy ffplay.exe , ffmpeg.exe and ffprobe.exe into **C:\ffmpeg** .
 
@@ -59,7 +59,7 @@ Set Up Cookies : Using cookies helps access age-restricted or private content.
 
 A. Install the Extension: 🌐 Open your browser (Chrome, Edge, etc.) and go to its web store. Search for the extension **"Get cookies.txt LOCALLY"** and click "Add to browser" to install it.
 
-B. Export Cookies: Go to the [YouTube](https://www.youtube.com) in your browser, click the newly installed extension's icon, and export the cookies.
+B. Export Cookies: Go to the [YouTube](https://www.youtube.com) home page in your browser, click the newly installed extension's icon, and export the cookies.
 
 C. Save the File: Save the exported file with the exact name **cookies.txt** in the same folder as the **song.py** script.
 
